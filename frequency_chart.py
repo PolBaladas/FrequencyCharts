@@ -12,12 +12,11 @@ import string
 
 alpha = string.ascii_lowercase
 alpha_cap = string.ascii_uppercase
-number = ['1','2','3','4','5','6','7','8','9','0']
 
 def frequency(text, plot_bool):
     c = text
     letters_count = [0]*27
-    numbers_count = [None]*27
+    #numbers_count = [None]*27
     i = 0
         
     while i<len(alpha):
